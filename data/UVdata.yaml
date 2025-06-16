@@ -1,0 +1,25 @@
+root: ../UVdata
+task: str
+download_links:
+  # - https://igl.ethz.ch/projects/uvdoc/UVDoc_final.zip
+  # - https://igl.ethz.ch/projects/uvdoc/Doc3D_grid.zip
+  # - https://igl.ethz.ch/projects/uvdoc/DocUnet_results.zip
+  # - https://igl.ethz.ch/projects/uvdoc/UVDocBenchmark_results.zip
+  # - https://igl.ethz.ch/projects/uvdoc/UVDocBenchmark_results_RelatedWorks.zip
+  # - https://igl.ethz.ch/projects/uvdoc/UVDoc_raw.zip
+  - https://igl.ethz.ch/projects/uvdoc/UVDoc_benchmark.zip
+
+
+
+filenames:  
+  # - ../UVDoc_final.zip
+  # - ../Doc3D_grid.zip
+  # - ../DocUnet_results.zip
+  # - ../UVDocBenchmark_results.zip
+  # - ../UVDocBenchmark_results_RelatedWorks.zip
+  # - ../UVDoc_raw.zip
+  - ../UVDoc_benchmark.zip
+ 
+
+extraction_paths: ./Raw_data
+check_validity: true
